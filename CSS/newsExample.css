@@ -21,7 +21,12 @@
     cursor: pointer;
     box-shadow: inset 5px -5px 5px black;
 }
-
+.subscricaoTitulo{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 50px;
+    font-size: 50px;
+}
 .profile{
     height: 40px;
     width: 40px;
@@ -236,120 +241,6 @@ li{
     margin-top: -5px;
 }
 
-.main-news{
-    position: relative;
-    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
-    display: block;
-    height: 350px;
-    width: 800px;
-    margin-top: 50px;
-    margin-left: 530px;
-}
-
-
-.main-news-img{
-    position: relative;
-    align-content: center;
-    height: 90%;
-    display: block;
-    text-align: center;
-    width: 55%;
-    margin-left: 5px;
-    top: 5%;
-}
-
-.main-news-txt{
-    position: absolute;
-    text-align: center;
-    display: flex;
-    height: 90%;
-    width: 43%;
-    right: 5px;
-    top: 30%;
-    margin-left: 50px;
-}
-.mainNewsTitle{
-    position: absolute;
-    text-align: center;
-    display: flex;
-    height: 10%;
-    width: 44%;
-    top: 0;
-    right: 0;
-}
-.news{
-    position: relative;
-    margin: 0px;
-}
-
-.secondary-news{
-    position: relative;
-    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
-    display: flex;
-    height: 170px;
-    width: 400px;
-    margin-left: 50px;
-    margin-top: -350px;
-}
-
-.secondary-news-txt{
-    position: relative;
-    text-align: center;
-    display: flex;
-    margin: 20px;
-}
-
-.secondary-news1{
-    position: relative;
-    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
-    display: flex;
-    height: 170px;
-    width: 400px;
-    margin-left: 50px;
-    margin-top: 10px;
-}
-
-.secondary-news-txt1{
-    position: relative;
-    text-align: center;
-    display: flex;
-    margin: 30px;
-}
-
-.secondary-news2{
-    position: relative;
-    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
-    display: flex;
-    height: 170px;
-    width: 400px;
-    margin-left: 1400px;
-    margin-top: -350px;
-}
-
-.secondary-news-txt2{
-    position: relative;
-    text-align: center;
-    display: flex;
-    margin: 20px;
-}
-
-.secondary-news3{
-    position: relative;
-    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
-    display: flex;
-    height: 170px;
-    width: 400px;
-    margin-left: 1400px;
-    margin-top: 10px;
-}
-
-.secondary-news-txt3{
-    position: relative;
-    text-align: center;
-    display: flex;
-    margin: 30px;
-}
-
 .newsletter{
     position: relative;
     margin-top: 55px;
@@ -438,4 +329,23 @@ li{
 .email-img{
     height: 30px;
 }
-
+.individualNewsMainImage{
+    position: relative;
+    margin: 120px;
+    margin-left: 25%;
+}
+.individualNewsMainTitle{
+    position: absolute;
+    align-content: center;  
+    top: 15%;
+    left: 20%;
+    margin: 20px;
+    font-size: xx-large;
+}
+.individualNewsMainText{
+    position: relative;
+    width: 40%;
+    left: 30%;
+    margin-top: -50px;
+    font-size: large;
+}

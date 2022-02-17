@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias pelo Mundo</title>
+    <link rel="stylesheet" href="../CSS/subscricao.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="home.html"><img class="world-header" src="../img/world.png"></a>
+            <a href="home.html"><h1 class="title-header">Noticias pelo Mundo</h1></a>
+            <button class="subscription" onclick="openSubscricao()"><b>Subscrição mensal</b></button>
+            <button class="profile" onclick="openLogin()"><img class="profileImg" src="../img/profile.png" ></button>
+        </div>
+        <div class="navbar">
+            <section>
+                <header>
+                    <ul class="list">
+                        <li><a class="item" href="home.html">Página Inicial</a></li>
+                        <li><a class="item" href="tecnologia.html">Tecnologia</a></li>
+                        <li><a class="item" href="desporto.html">Desporto</a></li>
+                        <li><a class="item" href="local.html">Local</a></li>
+                        <li><a class="item" href="famosos.html">Famosos</a></li>
+                        
+                        <div class="dropdown">
+                            <button class="itembtn">Categorias</button>
+                            <div class="dropdown-content">
+                                <a class="dropItem"  href="mundo.html">Mundo</a>
+                                <a class="dropItem"  href="justica.html">Justiça</a>
+                                <a class="dropItem"  href="economia.html">Economia</a>
+                                <a class="dropItem"  href="cultura.html">Cultura</a>
+                                <a class="dropItem"  href="saude.html">Saude</a>
+                            </div>
+                        </div>
+                    </ul>
+                </header>
+            </section>
+        </div>
+        <h1 class="subscricaoTitulo">Bem vindo a subscrição!</h1>
+        <div class="priceTableDiv">
+            <table border="1" class="priceTable">
+                <tr>
+                    <td>Duração</td>
+                    <td>Meia inscrição</td>
+                    <td>Inscriçao completa</td>
+                    <td>Valor total</td>
+                </tr>
+                <tr>
+                    <td>7 Dias</td>
+                    <td>sim/não</td>
+                    <td>sim/não</td>
+                    <td>0.50 € / 2€</td>
+                </tr>
+                <tr>
+                    <td>31 Dias</td>
+                    <td>sim/não</td>
+                    <td>sim/não</td>
+                    <td>5 € / 7 €</td>
+                </tr>
+                <tr>
+                    <td>1 ano</td>
+                    <td>sim/não</td>
+                    <td>sim/não</td>
+                    <td>8 € / 10 €</td>
+                </tr>
+                <tr>
+                    <td>Indeterminado</td>
+                    <td>sim/não</td>
+                    <td>sim/não</td>
+                    <td>15 €</td>
+                </tr>
+            </table>
+        </div>
+        
+        <p>Escolha a duração pretendida:</p>
+        <input type="radio" id="7Dias" name="Duração" value="1Dia">
+        <label for="7Dias">7 Dias</label><br>
+        <input type="radio" id="31Dias" name="Duração" value="31Dias">
+        <label for="31Dias">31 Dias</label><br>
+        <input type="radio" id="1Ano" name="Duração" value="1Ano">
+        <label for="1Ano">1 Ano</label><br>
+        <input type="radio" id="Indeterminado" name="Duração" value="Indeterminado">
+        <label for="Indeterminado">Indeterminado</label><br>
+
+        <p>Escolha o tipo de inscriçao:</p>
+        <input type="radio" name="Inscrição" id="inscricao" value="Meia inscriçao">Meia inscrição
+        <input type="radio" name="Inscrição" id="inscricao" value="Inscrição completa">Inscrição completa
+         
+           
+
+        <button class="submitSubscription" onclick="subscricao()">Submeter</button>
+         <p id="result" class="test"></p> 
+    
+</body>
+</html>
+<script src="../JS/login.js"></script>

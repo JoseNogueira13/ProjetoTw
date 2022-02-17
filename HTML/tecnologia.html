@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notícias pelo Mundo</title>
-    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/individualPage.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <a href="home.html"><img class="world-header" src="../img/world.png"></a>
             <a href="home.html"><h1 class="title-header">Noticias pelo Mundo</h1></a>
-            <button class="subscription" ><b>Subscrição mensal</b></button>
+            <button class="subscription" onclick="openSubscricao()"><b>Subscrição mensal</b></button>
             <button class="profile" onclick="openLogin()"><img class="profileImg" src="../img/profile.png" ></button>
         </div>
         <div class="navbar">
@@ -40,84 +40,80 @@
             </section>
         </div>
         <div class="individualNewsMain">
-            <img src="../img/world.png" class="individualNewsMainImage" alt="">
-                <p class="individualNewsMainText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
-                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="tecnologiaNewsExample.html" class="individualNewsMainLink">
+                <img src="../img/individualImageMain.jpg" class="individualNewsMainImage" alt="">
+                <h2 class="individualNewsMainTitle">Google anuncia mudanças no Android para proteger privacidade dos utilizadores</h2>
+                <p class="individualNewsMainText">A Google anunciou quarta-feira que ao longo dos próximos anos vai alterar a ferramenta 
+                    de identificação de utilizadores do seu sistema operativo móvel Android, para uma maior proteção de privacidade nos dados 
+                    partilhados com empresas para publicidade.Uma decisão semelhante tomada pela Apple no ano passado motivou várias críticas 
+                    dos anunciantes, recorda a EFE.</p>
+            </a>
+            
         </div>
 
         <div class="secondaryIndividualNews">
-            <img src="../img/world.png" alt="" class="secondaryIndividualImage">
+            <img src="../img/secondaryIndividualImage.jpg" alt="" class="secondaryIndividualImage">
             <div class="secondaryIndividualNewsDiv">
-                <p class="secondaryIndividualNewsText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="secondaryIndividualNewsText">Nos aposta em polo de competências em Ponte de Sor e cria 25 postos de trabalho</p>
             </div>
         
         </div>
+        <div class="midLine"></div>
         <div class="secondaryIndividualNews1">
-            <img src="../img/world.png" alt="" class="secondaryIndividualImage1">
+            <img src="../img/secondaryIndividualImage1.jpg" alt="" class="secondaryIndividualImage1">
             <div class="secondaryIndividualNewsDiv1">
-                <p class="secondaryIndividualNewsText1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="secondaryIndividualNewsText1">Mark Zuckerberg promove Nick Clegg a líder da área de "policy"</p>
             </div>
         
         </div>
         <div class="secondaryIndividualNews2">
-            <img src="../img/world.png" alt="" class="secondaryIndividualImage2">
+            <img src="../img/secondaryIndividualImage2.jpg" alt="" class="secondaryIndividualImage2">
             <div class="secondaryIndividualNewsDiv2">
-                <p class="secondaryIndividualNewsText2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="secondaryIndividualNewsText2">Intel compra israelita Tower Semiconductor por 5,4 mil milhões de dólares</p>
             </div>
         
         </div>
         <div class="secondaryIndividualNews3">
-            <img src="../img/world.png" alt="" class="secondaryIndividualImage3">
+            <img src="../img/secondaryIndividualImage3.jpg" alt="" class="secondaryIndividualImage3">
             <div class="secondaryIndividualNewsDiv3">
-                <p class="secondaryIndividualNewsText3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="secondaryIndividualNewsText3">Portugal ocupa o 31º posto entre os países mais afetados por "ransomware"</p>
             </div>
         
         </div>
+        <div class="midLine"></div>
         <div class="secondaryIndividualNews4">
-            <img src="../img/world.png" alt="" class="secondaryIndividualImage4">
+            <img src="../img/secondaryIndividualImage4.jpg" alt="" class="secondaryIndividualImage4">
             <div class="secondaryIndividualNewsDiv4">
-                <p class="secondaryIndividualNewsText4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="secondaryIndividualNewsText4">SpaceX revela parceria para três novas missões, incluindo caminhada espacial inédita</p>
             </div>
         
         </div>
         <div class="secondaryIndividualNews5">
-            <img src="../img/world.png" alt="" class="secondaryIndividualImage5">
+            <img src="../img/secondaryIndividualImage5.jpg" alt="" class="secondaryIndividualImage5">
             <div class="secondaryIndividualNewsDiv5">
-                <p class="secondaryIndividualNewsText5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="secondaryIndividualNewsText5">Rostos gerados por inteligência artificial inspiram mais confiança que imagens de rostos reais</p>
             </div>
         
         </div>
         <div class="secondaryIndividualNews6">
-            <img src="../img/world.png" alt="" class="secondaryIndividualImage6">
+            <img src="../img/secondaryIndividualImage6.jpg" alt="" class="secondaryIndividualImage6">
             <div class="secondaryIndividualNewsDiv6">
-                <p class="secondaryIndividualNewsText6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="secondaryIndividualNewsText6">Ciberataques: Microsoft alerta que não faz chamadas telefónicas não solicitadas</p>
             </div>
         
         </div>
+        <div class="midLine"></div>
         <div class="secondaryIndividualNews7">
-            <img src="../img/world.png" alt="" class="secondaryIndividualImage7">
+            <img src="../img/secondaryIndividualImage7.jpg" alt="" class="secondaryIndividualImage7">
             <div class="secondaryIndividualNewsDiv7">
-                <p class="secondaryIndividualNewsText7">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="secondaryIndividualNewsText7"> Salários dos perfis tecnológicos a aumentar. Vencimentos mais altos em Lisboa do que no Porto</p>
             </div>
         
         </div>
         <div class="secondaryIndividualNews8">
-            <img src="../img/world.png" alt="" class="secondaryIndividualImage8">
+            <img src="../img/secondaryIndividualImage8.jpg" alt="" class="secondaryIndividualImage8">
             <div class="secondaryIndividualNewsDiv8">
-                <p class="secondaryIndividualNewsText8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p class="secondaryIndividualNewsText8">Twitter com perdas de 221 milhões de dólares em 2021</p>
             </div>
         
         </div>
