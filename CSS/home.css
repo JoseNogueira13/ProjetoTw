@@ -367,7 +367,47 @@ li{
 .newsletter-form{
     position: relative;
 }
-
+.exitCross{
+    position: absolute;
+    background-color: transparent;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.exitCross:hover{
+    cursor: pointer;
+    box-shadow: inset 2px 2px 2px 2px black;
+    
+}
+.exitNewsLetter{
+    position: absolute;
+    background-color: transparent;
+    border: transparent;
+    width: 50px;
+    margin-left: 100px;
+}
+.newsletterWindow{
+    position: absolute;
+    background-color: #3a506b;
+    height: 750px;
+    width: 450px;
+    display: none;
+    margin-top: -1100px;
+    margin-left: 700px;
+    border-radius: 10px;
+    perspective: 1000px;
+    text-align: center;
+}
+.newsLetterTitle{
+    position: relative;
+    margin-top: 100px;
+}
+.jornalImgNewsLetter{
+    position: absolute;
+    margin-top: 150px;
+    height: 200px;
+    margin-left: -180px;
+}
 .form{
     margin-top: 50px;
     text-align: center;

@@ -74,25 +74,52 @@
                 </tr>
             </table>
         </div>
+        <div class="radioBox">
+            <p>Escolha a duração pretendida:</p>
+            <input type="radio" id="7Dias" name="Duração" value="1Dia">
+            <label for="7Dias">7 Dias</label><br>
+            <input type="radio" id="31Dias" name="Duração" value="31Dias">
+            <label for="31Dias">31 Dias</label><br>
+            <input type="radio" id="1Ano" name="Duração" value="1Ano">
+            <label for="1Ano">1 Ano</label><br>
+            <input type="radio" id="Indeterminado" name="Duração" value="Indeterminado">
+            <label for="Indeterminado">Indeterminado</label><br>
+    
+            <p>Escolha o tipo de inscriçao:</p>
+            <input type="radio" name="Inscrição" id="inscricao" value="Meia inscriçao">Meia inscrição
+            <input type="radio" name="Inscrição" id="inscricao" value="Inscrição completa">Inscrição completa
+             
+               
+    
+            <button class="submitSubscription" onclick="subscricao()">Submeter</button>
+            <p id="result" class="test"></p> 
+        </div>
+        <div id="loginForm">
+            <button id = "exitProfile" class="exitProfile" onclick="closeLogin()"><img class="profileImg" src="../img/profile.png" ></button>
+            <div class="loginFormPanel">
+                <div class="innerBox" id="loginFormPanel">
+                    <div class="frontPanel">
+                        <h2>LOGIN</h2>
+                        <form action="">
+                            <input id="userEmail" type="email" class="registrationInput" placeholder="Digite o seu Email" required>
+                            <input id="userPassword" type="password" class="registrationInput" placeholder="Digite a sua palavra-passe" required>
+                            <button type="submit" class="submitBtn" onclick="loginUser()">Concluir</button>
+                        </form>
+                        <button type="button" class="registrationBTN" onclick="openRegisterPanel()">Sou novo aqui</button>
+                    </div>
+                    <div class="backPanel">
+                        <h2>REGISTO</h2>
+                        <form action="">
+                            <input id="userEmail" type="email" class="registrationInput" placeholder="Digite o seu Email" required>
+                            <input id="userPassword" type="password" class="registrationInput" placeholder="Digite a sua palavra-passe" required>
+                            <button type="submit" class="submitBtn" onclick="registerUser()">Concluir</button>
+                        </form>
+                        <button type="button" class="registrationBTN" onclick="openLoginPanel()">Ja estou registado no website</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         
-        <p>Escolha a duração pretendida:</p>
-        <input type="radio" id="7Dias" name="Duração" value="1Dia">
-        <label for="7Dias">7 Dias</label><br>
-        <input type="radio" id="31Dias" name="Duração" value="31Dias">
-        <label for="31Dias">31 Dias</label><br>
-        <input type="radio" id="1Ano" name="Duração" value="1Ano">
-        <label for="1Ano">1 Ano</label><br>
-        <input type="radio" id="Indeterminado" name="Duração" value="Indeterminado">
-        <label for="Indeterminado">Indeterminado</label><br>
-
-        <p>Escolha o tipo de inscriçao:</p>
-        <input type="radio" name="Inscrição" id="inscricao" value="Meia inscriçao">Meia inscrição
-        <input type="radio" name="Inscrição" id="inscricao" value="Inscrição completa">Inscrição completa
-         
-           
-
-        <button class="submitSubscription" onclick="subscricao()">Submeter</button>
-         <p id="result" class="test"></p> 
     
 </body>
 </html>

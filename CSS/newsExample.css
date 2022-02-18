@@ -349,3 +349,37 @@ li{
     margin-top: -50px;
     font-size: large;
 }
+.commentBoxDiv{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+#commentBox  {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 800px;
+    border: none;
+    border-radius: 5px;
+}
+#post{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1000px;
+    margin-bottom: 20px;
+}
+#unordered{
+    position: absolute;
+    margin-top: 50px;
+}
+.commentSection{
+    position: absolute;
+    color: #0b132b;
+    margin-top: 55px;
+    margin-left: 550px;
+    width: 750px;
+    height: 100px;
+    border: solid black;
+    border-radius: 10px;
+}

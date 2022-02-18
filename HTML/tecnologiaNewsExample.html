@@ -83,6 +83,18 @@
 
 
         </div>
+        <div class="commentBoxDiv">
+            <input type="text" id="commentBox" placeholder="Enter comment">
+            <button id="post">Post</button>
+            <div class="commentSection">
+                <ul id="unordered">
+                
+               
+                </ul>
+            </div>
+           
+        </div>
+       
         <div class="newsletter">
             <div class="newsletter-info">
                 <h1>Noticias pelo Mundo </h1>
@@ -100,7 +112,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="footer">
         <p class="street"> <img class="address-img" src="../img/address.png" alt=""> Escola Superior de Media Artes e Design Rua D. Sancho I, n.º 981 4480-876 Vila do Conde Portugal</p>
         <p class="number"> <img class="phone-img" src="../img/phone.png" alt="">   T. +351 252 291 700</p>
@@ -132,6 +144,32 @@
             </div>
         </div>
     </div>
+    <div id="loginForm">
+        <button id = "exitProfile" class="exitProfile" onclick="closeLogin()"><img class="profileImg" src="../img/profile.png" ></button>
+        <div class="loginFormPanel">
+            <div class="innerBox" id="loginFormPanel">
+                <div class="frontPanel">
+                    <h2>LOGIN</h2>
+                    <form action="">
+                        <input id="userEmail" type="email" class="registrationInput" placeholder="Digite o seu Email" required>
+                        <input id="userPassword" type="password" class="registrationInput" placeholder="Digite a sua palavra-passe" required>
+                        <button type="submit" class="submitBtn" onclick="loginUser()">Concluir</button>
+                    </form>
+                    <button type="button" class="registrationBTN" onclick="openRegisterPanel()">Sou novo aqui</button>
+                </div>
+                <div class="backPanel">
+                    <h2>REGISTO</h2>
+                    <form action="">
+                        <input id="userEmail" type="email" class="registrationInput" placeholder="Digite o seu Email" required>
+                        <input id="userPassword" type="password" class="registrationInput" placeholder="Digite a sua palavra-passe" required>
+                        <button type="submit" class="submitBtn" onclick="registerUser()">Concluir</button>
+                    </form>
+                    <button type="button" class="registrationBTN" onclick="openLoginPanel()">Ja estou registado no website</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
     
 </body>
 </html>

@@ -116,7 +116,14 @@
 
             <div class="newsletter-form">
                 <form class="form"><input class="email" type="text" name="email" placeholder="Insira o seu Email"> </form>
-                <button class="submit">Submeter</button>
+                <button class="submit" onclick="newsletterMessage()">Submeter</button>
+            </div>
+            <div id = "newsLetterDiv" class="newsletterWindow">
+                <button id="exitNewsLetter" onclick="closeNewsletter()" class="exitNewsLetter"><img class="exitCross" src="../img/redX.png" alt=""></button>
+                <h1 class="newsLetterTitle">Obrigado pela sua submição!</h1>
+                <p>Agora estara apto a receber todas as novidades!</p>
+                <img class="jornalImgNewsLetter" src="../img/jornal.png" alt="jornal">
+                
             </div>
 
             <div class="jornal">
